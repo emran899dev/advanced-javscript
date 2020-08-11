@@ -22,5 +22,7 @@ const result1 = number.map((element) => {return element*element})
 const result2 = number.map(x => x * x)
 console.log(result2);
 
+// es6 filter 
+
 const bigger = number.filter(x => x < 4)
 console.log(bigger);
